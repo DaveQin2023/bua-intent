@@ -6,16 +6,23 @@ index 0000000..f231220
 @@ -0,0 +1 @@
 +﻿.promo-banner { background: #fdf3e3; border: 1px solid #e8a33d; border-radius: 8px; margin: 16px auto 0; max-width: 900px; padding: 12px 18px; text-align: center; font-size: 0.95rem; }
 diff --git a/src/ui/index.html b/src/ui/index.html
-index 5fcac74..b5869f3 100644
+index 5fcac74..80b3bc7 100644
 --- a/src/ui/index.html
 +++ b/src/ui/index.html
-@@ -1,4 +1,4 @@
+@@ -1,10 +1,11 @@
 -<!DOCTYPE html>
 +﻿<!DOCTYPE html>
  <html lang="en">
  <head>
    <meta charset="UTF-8">
-@@ -21,6 +21,7 @@
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Annuity Marketplace — Product Explorer</title>
+   <link rel="stylesheet" href="styles.css">
++  <link rel="stylesheet" href="banner.css">
+ </head>
+ <body>
+   <header class="site-header">
+@@ -21,6 +22,7 @@
    </header>
  
    <main>
