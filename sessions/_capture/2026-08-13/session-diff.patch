@@ -29,12 +29,21 @@ index 5fcac74..1e6ddce 100644
      </section>
  
 diff --git a/src/ui/styles.css b/src/ui/styles.css
-index b995eb5..df96130 100644
+index b995eb5..29663a1 100644
 --- a/src/ui/styles.css
 +++ b/src/ui/styles.css
-@@ -55,6 +55,7 @@ body {
+@@ -54,7 +54,16 @@ body {
+ /* Hero */
  .hero { text-align: center; padding: 36px 16px 20px; }
  .hero h2 { margin: 0 0 8px; color: var(--brand-dark); }
++.hero p.hero-tagline {
++  margin: 0 0 8px;
++  color: var(--accent);
++  font-size: 0.85rem;
++  font-weight: 600;
++  text-transform: uppercase;
++  letter-spacing: 0.04em;
++}
  .hero p { margin: 0; color: var(--muted); }
 +.hero .hero-tagline { margin: 0 0 6px; color: var(--accent); font-size: 0.9rem; font-weight: 600; }
  

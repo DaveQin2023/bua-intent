@@ -1,4 +1,4 @@
  src/ui/banner.css | 1 +
  src/ui/index.html | 3 +++
- src/ui/styles.css | 1 +
- 3 files changed, 5 insertions(+)
+ src/ui/styles.css | 9 +++++++++
+ 3 files changed, 13 insertions(+)
